@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 // Navbar +==================================================
 .NavbarIMG{
@@ -16,4 +18,20 @@
 .bg-dark {
     background: #1e2022!important;
     color: #fff;
+}
+section{
+    width: 100%;
+    height: 200vh;
+}
+.ptt{
+    margin-top: 9%;
+}
+header{
+    height: 200vh;
+    .headerImg{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
 }
