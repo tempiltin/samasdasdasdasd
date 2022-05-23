@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+// Navbar +==================================================
+.NavbarIMG{
+    width: 60px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: transparent;
+}
+.bg-dark {
+    background: #1e2022!important;
+    color: #fff;
+}
