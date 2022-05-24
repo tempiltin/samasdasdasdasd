@@ -328,7 +328,9 @@ header {
         color: #fff;
     }
     .pagination{
+        align-items: center;
         li{
+            padding: 5px;
             a{
                 padding: 5px 10px;
             }
