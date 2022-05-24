@@ -487,6 +487,10 @@ footer{
         color: #161616;
         font-weight: 400;
     }
+    .MovieYour video {
+        width: 700px;
+        height: 399px;
+    }
 }
 @media(max-width:1199px){
     .NavUL li a {
@@ -627,6 +631,10 @@ footer{
     }
 }
 @media(max-width:767px){
+    .MovieYour video {
+        width: 500px;
+        height: 300px;
+    }
     header .headerImg img {
         width: 100%;
         margin-top: 36px;
@@ -705,6 +713,10 @@ footer{
     }    
 }
 @media(max-width:575px){
+    .MovieYour video {
+        width: 301px;
+        height: 201px;
+    }
     header .headerImg img {
         width: 100%;
         margin-top: 90px;
