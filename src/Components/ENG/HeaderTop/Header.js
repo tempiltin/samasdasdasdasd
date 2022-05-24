@@ -34,7 +34,7 @@ const Header = () => {
 
               <h1>Programmers UZ</h1>
               <p>
-              We are helping client to create WordPress websites with our talented expert.
+              Programmers UZ provides various IT services.
               </p>
               <div className="row mt-5">
                 <div className="col-auto">
