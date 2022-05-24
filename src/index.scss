@@ -321,6 +321,24 @@ header {
     margin-bottom: 100px;
     width: 100%;
     height: auto;
+    .pagination__link{
+        padding: 5px 10px;
+        background: #ab46d4;
+        text-decoration: none;
+        color: #fff;
+    }
+    .pagination{
+        li{
+            a{
+                padding: 5px 10px;
+            }
+        }
+    }
+    .pagination__link--active{
+        background: #fd8d13;
+        color: #ab46d4;
+        padding: 5px 10px;
+    }
     .titlediv {
         h2 {
             font-size: 65px;
