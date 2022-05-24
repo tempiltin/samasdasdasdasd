@@ -5,7 +5,7 @@ import { SiElectron } from 'react-icons/si'
 import { AiFillFileMarkdown } from 'react-icons/ai'
 const Services = () => {
     return (
-        <section id="service">
+        <section id="services">
             <div className="container">
                 <div className="row">
                     <div className='col-lg-5 col-md-6 col-sm-8'>

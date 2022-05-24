@@ -5,7 +5,7 @@ import {BsHeadset,BsMailbox,BsYoutube,BsInstagram,BsLinkedin} from 'react-icons/
 import {GoLocation} from 'react-icons/go'
 const Footer = () => {
     return (
-        <footer>
+        <footer id='footer'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-3">
