@@ -8,7 +8,7 @@ const Footer = () => {
         <footer id='footer'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <div className="footerLogo">
                             <a href="https://www.programmers.uz">
                                 <img src={imglogo} alt="" />
@@ -16,7 +16,7 @@ const Footer = () => {
                         </div>
                         <p>Programmer UZ - a project providing various services and products in the field of information technology. "Programmers UZ" LLC provides services</p>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <h5>Link</h5>
                         <ul className="footer-list style-none">
                             <li><a href="#home">Home</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                             <li><Link to="/blog">Blog</Link></li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <h5>Contact</h5>
                         <ul className="footer-list style-none">
                             <li><a href="tel:662300015"><BsHeadset/> <span>+992 (66) 230 00 15</span></a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
                            
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <h5>GoLocation</h5>
                         <ul className="footer-list style-none">
                             <li><a href="https://www.youtube.com/programmeruz" target="_blank "><BsYoutube/> <span>You tube</span></a></li>

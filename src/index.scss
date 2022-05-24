@@ -30,7 +30,35 @@ html {
     color: rgba(0, 0, 0, .55);
     border-color: transparent;
 }
-
+.offcanvas-body{
+    ul{
+        li{
+            display: block;
+            justify-items: center;
+            align-items: center;
+            padding: 10px 15px;
+            a{
+                display: block;
+                text-align: center;
+                color: #000;
+                font-size: 22px;
+                text-decoration: none;
+                margin-top: 25px;
+                &:hover{
+                    color: #fb1b1d;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .NavUL{
+        li{
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+}
 .bg-dark {
     background: #1e2022 !important;
     color: #fff;
@@ -415,4 +443,240 @@ footer{
             color: #fb1b1d;
         }
     }
+}
+
+// Media
+
+
+
+@media(max-width:1400px){
+    #portfolio .portDivImg .titlePort p {
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+    }
+    footer .Cphy {
+        font-size: 18px;
+        color: #161616;
+        font-weight: 400;
+    }
+}
+@media(max-width:1199px){
+    .NavUL li a {
+        padding: 15px;
+        list-style: none;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color: #000;
+        padding: 15px 0;
+        margin: 0 20px;
+        align-items: center;
+    }
+    .ptt {
+        margin-top: 13%;
+    }
+    header .headerImg img {
+        width: 100%;
+        margin-top: 100px;
+    }
+    header h1 {
+        font-size: 54px;
+        font-weight: 700;
+    }
+    #services .titlediv h2 {
+        font-size: 54px;
+        font-weight: 700;
+        color: #1e2022;
+        margin-bottom: 50px;
+    }
+    #services .card ul li {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 35px;
+        color: #161616;
+    }
+    #portfolio .titlediv h2 {
+        font-size: 54px;
+        font-weight: 700;
+        color: #1e2022;
+        margin-bottom: 31px;
+        margin-top: 150px;
+    }
+    #strategy h2 {
+        font-size: 54px;
+        line-height: 1.18em;
+        margin-bottom: 0;
+        color: #161616;
+        font-weight: 700;
+    }
+    footer h5 {
+        font-size: 20px;
+        color: #161616;
+        font-weight: 500;
+    }
+    footer p {
+        font-size: 16px;
+        color: #161616;
+        margin-top: 50px;
+    }
+    .NavUL li a {
+        padding: 15px;
+        list-style: none;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color: #000;
+        padding: 15px 0;
+        margin: 0 20px;
+        align-items: center;
+    }
+}
+@media(max-width:991px){
+    header .headerImg img {
+        width: 100%;
+        margin-top: 0px;
+    }
+    #services .titlediv h2 {
+        font-size: 46px;
+        font-weight: 700;
+        color: #1e2022;
+        margin-bottom: 50px;
+    }
+    #services .card .icondiv {
+        width: 65px;
+        height: 65px;
+        margin: auto;
+        background: #161616;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    #services .card h5 {
+        font-size: 24px;
+        padding: 32px 0 26px;
+        margin-bottom: 0;
+        color: #161616;
+        font-weight: 600;
+        text-align: center;
+    }
+    #services .card ul li {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 35px;
+        color: #161616;
+        display: block;
+        text-align: center;
+    }
+    #services .card{
+        margin-bottom: 25px;
+    }
+    #portfolio .titlediv h2 {
+        font-size: 46px;
+        font-weight: 700;
+        color: #1e2022;
+        margin-bottom: 31px;
+        margin-top: 101px;
+    }
+    #portfolio .portDivImg .titlePort h5 {
+        font-size: 22px;
+        color: #fff;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+    #portfolio .portDivImg .titlePort p {
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+    }
+}
+@media(max-width:767px){
+    header .headerImg img {
+        width: 100%;
+        margin-top: 36px;
+    }
+    header .VideoLink {
+        margin-top: 10px;
+        width: 100%;
+    }
+    #services .card .icondiv {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        background: #161616;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    #services .card .icondiv .SerIcon {
+        color: #fff;
+        font-size: 50px;
+    }
+    #services .card h5 {
+        font-size: 31px;
+        padding: 32px 0 26px;
+        margin-bottom: 0;
+        color: #161616;
+        font-weight: 600;
+        text-align: center;
+    }
+    #services .card ul li {
+        padding: 0;
+        margin: 0;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 35px;
+        color: #161616;
+        display: block;
+        text-align: center;
+    }
+    #portfolio .titlediv h2 {
+        font-size: 39px;
+        font-weight: 700;
+        color: #1e2022;
+        margin-bottom: 31px;
+        margin-top: 32px;
+    }
+    #portfolio .portDivImg .titlePort h5 {
+        font-size: 28px;
+        color: #fff;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+    #portfolio .portDivImg .titlePort p {
+        font-size: 21px;
+        color: #fff;
+        text-align: center;
+    }
+    footer p {
+        font-size: 18px;
+        color: #161616;
+        margin-top: 50px;
+    }
+    footer ul li a {
+        font-size: 20px;
+        color: #161616;
+        font-weight: 500;
+    }
+    footer h5 {
+        font-size: 22px;
+        color: #161616;
+        font-weight: 600;
+    }    
+}
+@media(max-width:575px){
+
 }

@@ -7,7 +7,7 @@ const Header = () => {
     <header id='header1' className='ptt'>
      <div className="container">
          <div className="row">
-             <div className="col-lg-6 col-md-6">
+             <div className="col-lg-6 ">
                  <div data-aos="fade-up"  className="headerImg">
                  <img  src={gif} alt="" />
                  </div>

@@ -14,8 +14,8 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-3 col-md-3">
+                <div className="row justify-content-between">
+                    <div className="col-lg-3 col-md-6">
                         <div data-aos="fade-up-right" className="card">
                             <div className="icondiv">
                                 <BiWorld className='SerIcon' />
@@ -30,7 +30,7 @@ const Services = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <div data-aos="fade-down-right" className="card">
                             <div className="icondiv">
                                 <RiListSettingsFill className='SerIcon' />
@@ -45,7 +45,7 @@ const Services = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <div data-aos="fade-down-left" className="card">
                             <div className="icondiv">
                                 <SiElectron className='SerIcon' />
@@ -60,7 +60,7 @@ const Services = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <div data-aos="fade-left" className="card">
                             <div className="icondiv">
                                 <AiFillFileMarkdown className='SerIcon' />

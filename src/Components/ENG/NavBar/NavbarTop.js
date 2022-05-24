@@ -25,14 +25,14 @@ const NavbarTop = () => {
             <img src={img} alt="png" className='NavbarIMG'/>
           </Link>
         
-           <ul className='NavUL'>
+           <ul className='NavUL d-none d-lg-flex'>
              <li><Link to="/" className='active'>Home</Link> </li>
              <li><a href="#portfolio">Portfolio</a></li>
              <li><a href="#services">Services</a></li>
              <li><a href="#footer">Contact</a> </li>
              <li><Link to="/blog">Blog</Link> </li>
            </ul>
-           <ul className='NavUL'>
+           <ul className='NavUL d-none d-lg-flex'>
              <li ><a href="tel:662300015"><FaHeadphonesAlt className='NavIcon'/> <span> +998 (66) 230 00 15</span></a></li>
            </ul>
 
@@ -46,12 +46,16 @@ const NavbarTop = () => {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li className="nav-item">
-                  <a className="nav-link "  href="#!">Link</a>
-                </li>
-                <li className="nav-item ">
-                <a className="nav-link "  href="#!">Link</a>
-                </li>
+              
+             <li><Link to="/" className='active'>Home</Link> </li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#services">Services</a></li>
+             <li><a href="#footer">Contact</a> </li>
+             <li><Link to="/blog">Blog</Link> </li>
+    
+           <ul className='NavUL '>
+             <li ><a href="tel:662300015"><FaHeadphonesAlt className='NavIcon'/> <span> +998 (66) 230 00 15</span></a></li>
+           </ul>
               </ul>
 
             </div>
