@@ -21,7 +21,13 @@ html {
 .NavbarIMG {
     width: 60px;
 }
-
+.NavStrong{
+    margin-top: 22px;
+    color: rgb(253, 141, 19);
+    span{
+        color: #ab46d4;
+    }
+}
 #navbar {
     z-index: 1000000 !important;
 }
@@ -678,5 +684,42 @@ footer{
     }    
 }
 @media(max-width:575px){
-
+    header .headerImg img {
+        width: 100%;
+        margin-top: 90px;
+      }
+      header h1 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 20px;
+      }
+      .Media320{
+          height: 140px;
+      }
+      header{
+          padding-bottom: 20px;
+      }
+      #portfolio .portDivImg .titlePort p {
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+      }
+      #strategy h2 {
+        font-size: 24px;
+        line-height: 1.18em;
+        margin-bottom: 0;
+        color: #161616;
+        font-weight: 700;
+      }
+      footer .Cphy {
+        font-size: 16px;
+        color: #161616;
+        font-weight: 400;
+      }
+      #strategy {
+        padding-top: 4px;
+      }
+      .offcanvas-body .NavUL li a {
+        font-size: 13px;
+      }
 }

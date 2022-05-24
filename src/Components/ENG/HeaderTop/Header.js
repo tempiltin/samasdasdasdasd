@@ -36,11 +36,11 @@ const Header = () => {
               <p>
               Programmers UZ provides various IT services.
               </p>
-              <div className="row mt-5">
-                <div className="col-auto">
+              <div className="row mt-5 Media320">
+                <div className="col-sm-auto col-12">
                 <a href="tel:662300015" className='HeaderButton'>Contact</a>
                 </div>
-                <div className="col-auto">
+                <div className="col-sm-auto col-12">
                   <a href="tel:662300015" className="NumberPhone">
                     +998 (66) 230 00 15
                   </a>

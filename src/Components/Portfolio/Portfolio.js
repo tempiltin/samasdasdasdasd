@@ -20,7 +20,7 @@ export default class Portfolio extends Component {
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? Quos sint unde laboriosam, quas magnam eius eligendi quisquam adipisci, laborum eveniet tempore id numquam praesentium debitis.
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? 
                               </p>
                           </div>
                       </div>
@@ -30,7 +30,7 @@ export default class Portfolio extends Component {
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? Quos sint unde laboriosam, quas magnam eius eligendi quisquam adipisci, laborum eveniet tempore id numquam praesentium debitis.
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? 
                               </p>
                           </div>
                       </div>
@@ -40,7 +40,7 @@ export default class Portfolio extends Component {
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? Quos sint unde laboriosam, quas magnam eius eligendi quisquam adipisci, laborum eveniet tempore id numquam praesentium debitis.
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? 
                               </p>
                           </div>
                       </div>
@@ -50,7 +50,7 @@ export default class Portfolio extends Component {
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? Quos sint unde laboriosam, quas magnam eius eligendi quisquam adipisci, laborum eveniet tempore id numquam praesentium debitis.
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odio quo ea, nisi, dicta vitae expedita neque labore veniam corrupti ducimus enim ipsam nemo illo voluptate. Beatae adipisci illum iusto saepe perspiciatis cumque ut optio animi ullam voluptatem. Aspernatur illum officiis unde molestias nobis tenetur fugit illo est dicta ex. Est, nulla repellendus? 
                               </p>
                           </div>
                       </div>

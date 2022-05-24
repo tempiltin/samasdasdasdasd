@@ -21,8 +21,8 @@ const NavbarTop = () => {
     
       <nav id='navbar' className="navbar navbar-light">
         <div className="container">
-          <Link className="navbar-brand" to='/'>
-            <img src={img} alt="png" className='NavbarIMG'/>
+          <Link className="navbar-brand d-flex" to='/'>
+            <img src={img} alt="png" className='NavbarIMG'/> <strong className='d-flex d-lg-none NavStrong'>rogrammers <span> UZ</span></strong>
           </Link>
         
            <ul className='NavUL d-none d-lg-flex'>
