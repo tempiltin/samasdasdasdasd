@@ -2,21 +2,21 @@ import React from 'react'
 import { BiWorld } from 'react-icons/bi'
 import { RiListSettingsFill } from 'react-icons/ri'
 import { SiElectron } from 'react-icons/si'
-import { BsFileEarmarkBarGraph } from 'react-icons/bs'
+import { AiFillFileMarkdown } from 'react-icons/ai'
 const Services = () => {
     return (
         <section id="service">
             <div className="container">
                 <div className="row">
                     <div className='col-lg-5 col-md-6 col-sm-8'>
-                        <div className="titlediv">
+                        <div data-aos="fade-right" className="titlediv">
                             <h2>Our included service.</h2>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-lg-3 col-md-3">
-                        <div className="card">
+                        <div data-aos="fade-up-right" className="card">
                             <div className="icondiv">
                                 <BiWorld className='SerIcon' />
                             </div>
@@ -31,7 +31,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3">
-                        <div className="card">
+                        <div data-aos="fade-down-right" className="card">
                             <div className="icondiv">
                                 <RiListSettingsFill className='SerIcon' />
                             </div>
@@ -46,7 +46,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3">
-                        <div className="card">
+                        <div data-aos="fade-down-left" className="card">
                             <div className="icondiv">
                                 <SiElectron className='SerIcon' />
                             </div>
@@ -61,9 +61,9 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3">
-                        <div className="card">
+                        <div data-aos="fade-left" className="card">
                             <div className="icondiv">
-<BsFileEarmarkBarGraph className='SerIcon'/>
+                                <AiFillFileMarkdown className='SerIcon' />
                             </div>
                             <h5>Marketing</h5>
                             <ul className='style-none'>

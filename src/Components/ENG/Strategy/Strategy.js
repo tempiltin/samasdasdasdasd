@@ -6,7 +6,7 @@ const Strategy = () => {
             <div className="container">
                 <div className="row mt-5">
                     <div className="col-lg-6">
-                        <div className="title-style-five">
+                        <div data-aos="fade-down-right" className="title-style-five">
                             <div className="upper-title">Why choose us</div>
                             <h2 className="title">
                                 Create <br />
@@ -15,7 +15,7 @@ const Strategy = () => {
                         </div>
                     </div>
                     <div className="col-lg-5">
-                        <div className="accordion accordion-flush" id="accordionFlushExample">
+                        <div data-aos="fade-up-left" className="accordion accordion-flush" id="accordionFlushExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="flush-headingOne">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">

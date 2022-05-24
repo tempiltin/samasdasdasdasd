@@ -8,8 +8,8 @@ const Header = () => {
      <div className="container">
          <div className="row">
              <div className="col-lg-6 col-md-6">
-                 <div className="headerImg">
-                 <img src={gif} alt="" />
+                 <div data-aos="fade-up"  className="headerImg">
+                 <img  src={gif} alt="" />
                  </div>
              </div>
              <div className="col-lg-6">

@@ -7,7 +7,7 @@ export default class Portfolio extends Component {
           <div className="container">
           <div className="row">
                 <div className='col-lg-5 col-md-6 col-sm-8'>
-                    <div className="titlediv">
+                    <div data-aos="zoom-in" className="titlediv">
                         <h2>Our selected work.</h2>
                     </div>
                 </div>
@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
           <div className="container">
               <div className="row">
                   <div className="col-lg-6 col-md-6">
-                      <div className="portDivImg">
+                      <div data-aos="zoom-in-down" className="portDivImg">
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
                       </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                      <div className="portDivImg">
+                      <div data-aos="zoom-in-down" className="portDivImg">
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
@@ -36,7 +36,7 @@ export default class Portfolio extends Component {
                       </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                      <div className="portDivImg">
+                      <div data-aos="zoom-in-down" className="portDivImg">
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
@@ -46,7 +46,7 @@ export default class Portfolio extends Component {
                       </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                      <div className="portDivImg">
+                      <div data-aos="zoom-in-down" className="portDivImg">
                           <img src={img} alt="" />
                           <div className="titlePort">
                               <h5>Name</h5>
@@ -55,6 +55,7 @@ export default class Portfolio extends Component {
                           </div>
                       </div>
                   </div>
+                 
               </div>
               <div className="row">
                   <div className="col-12">
