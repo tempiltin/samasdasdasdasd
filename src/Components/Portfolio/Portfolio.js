@@ -14,14 +14,20 @@ const Portfolio = () => {
     }, [])
 
 
-
+    
+  const page ="?page=2"
+  
     function fetchData() {
-        fetch(`https://companyyy.herokuapp.com/api/all_product/`)
+        fetch(`/all_product/${page}`)
             .then((res) => res.json())
             .then((data) => {
-                setData(data);
+                setData(data.results);
                 console.log("data fetch >>>>>>>>>>>>>>>>>>>>" ,data);
             });
+    }
+
+    function newpage(){
+        
     }
 // const scrollToEnd = () =>{
 //     alert('hello world')                                                            
@@ -58,6 +64,7 @@ const Portfolio = () => {
                             <div className="col-lg-6 col-md-6" key={index}>
                                 <div data-aos="zoom-in-down" className="portDivImg">
                                     <img src={res.image} alt="" />
+                                    <h1>iiiiii</h1>
                                     <div className="titlePort">
                                         <h5>{res.name}</h5>
                                         <p>{res.about}
@@ -73,6 +80,7 @@ const Portfolio = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="Drop">
+                            <button type="button" onClick={()=> newpage()}> next</button>
                           {/* <ReactPaginate
                            previousLabel={'Prev'}
                            nextLabel={"Next"}
