@@ -1,16 +1,19 @@
-import React, { useState, useEffect } from 'react'
-import ReactPaginate from 'react-paginate'
+import React, { useState, useEffect} from 'react'
+// import ReactPaginate from 'react-paginate'
 // import img from '../../../src/assets/img_31.jpg'
 
-const PER_PAGE = 10;
+// const PER_PAGE = 2;
 const Portfolio = () => {
-
-    const [currentPage, setcurrentPage] = useState(0);
+    
+ 
+    // const [currentPage, setcurrentPage] = useState(0);
     const [data, setData] = useState([]);
 
     useEffect(() => {
         fetchData();
     }, [])
+
+
 
     function fetchData() {
         fetch(`https://companyyy.herokuapp.com/api/all_product/`)
@@ -20,21 +23,25 @@ const Portfolio = () => {
                 console.log("data fetch >>>>>>>>>>>>>>>>>>>>" ,data);
             });
     }
-
-    function handlePageClick({ selected: selectedPage }) {
-        console.log("selectedPage", selectedPage);
-        setcurrentPage(selectedPage)
-    }
-
-    const offset = currentPage * PER_PAGE;
-
-
-    const pageCaunt = Math.ceil(data.length / PER_PAGE)
+// const scrollToEnd = () =>{
+//     alert('hello world')                                                            
+// }
+//     window.onscroll = function () {
+//         if( window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight){
+//            scrollToEnd()
+//         }
+//     }
 
 
-
+    // function handlePageClick({ selected: selectedPage }) {
+    //     console.log("selectedPage", selectedPage);
+    //     setcurrentPage(selectedPage )
+    // }
+    
+    // const offset = currentPage + PER_PAGE;
+    // const pageCaunt = Math.ceil(data.length / PER_PAGE)
     return (
-        <section id="portfolio">
+        <section id="portfolio" >
             <div className="container">
                 <div className="row">
                     <div className='col-lg-5 col-md-6 col-sm-8'>
@@ -45,9 +52,9 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="row">
+                <div className="row" >
                     {
-                        data.slice(offset, offset + PER_PAGE).map((res, index) => (
+                        data.map((res, index) => (
                             <div className="col-lg-6 col-md-6" key={index}>
                                 <div data-aos="zoom-in-down" className="portDivImg">
                                     <img src={res.image} alt="" />
@@ -58,17 +65,17 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                             </div>
-
-                        ))}
+                        ))
+                    }
 
 
                 </div>
                 <div className="row">
                     <div className="col-12">
                         <div className="Drop">
-                          <ReactPaginate
-                           previousLabel={'< - Prev'}
-                           nextLabel={"Next - >"}
+                          {/* <ReactPaginate
+                           previousLabel={'Prev'}
+                           nextLabel={"Next"}
                            pageCount={pageCaunt}
                            onPageChange={handlePageClick}
                            containerClassName={"pagination"}
@@ -78,7 +85,7 @@ const Portfolio = () => {
                            activeClassName={"pagination__link--active"}
                            >
 
-                          </ReactPaginate>
+                          </ReactPaginate> */}
                         </div>
                     </div>
                 </div>
