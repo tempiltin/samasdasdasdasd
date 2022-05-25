@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -439,11 +439,17 @@ header {
 // footer
 
 footer{
-    background: #f6f6f6;
+  
     padding-top: 25px;
     margin-top: 100px;
     width: 100%;
     height: auto;
+    .footer-Link{
+        li{
+        margin-top: 20px;
+
+        }
+    }
     .footerLogo{
         width: 65px;
         img{
@@ -468,9 +474,11 @@ footer{
         }
     }
     h5{
-        font-size: 28px;
-        color: #161616;
-        font-weight: 600;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 200;
     }
     ul{
         li{
@@ -478,6 +486,7 @@ footer{
                 font-size: 18px;
                 color: #161616;
                 font-weight: 500;
+                transition: 500ms;
                 &:hover{
                     color: #fb1b1d;
                 }
@@ -493,7 +502,67 @@ footer{
             color: #fb1b1d;
         }
     }
+    .Sign-UpBtn{
+      
+        padding: 20px 30px;
+        background: #161616;
+        color: #fff;
+        border-radius: 8px;
+    }
+    .Ptitle{
+        margin-bottom: 25px;
+    }
+    .Flink{
+        li{
+            padding: 0px 10px;
+            a{
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .DFpp{
+        li{
+            padding: 0px 10px;
+        }
+    }
 }
+footer .Cphy {
+    font-size: 18px;
+    color: #161616;
+    font-weight: 400;
+    text-decoration: none;
+    &:hover{
+        color: #161616;
+    }
+}
+
+
+/// contact ==============================================================================================
+.contact{
+    width: 100%;
+    height: auto;
+    .inside-hero-one {
+        background: #F9F2EC;
+        text-align: center;
+        padding: 105px 0 115px;
+        .page-title {
+            font-size: 72px;
+            font-weight: 500;
+        }
+        .font-recoleta {
+            font-family: 'Acme', sans-serif;
+        }
+        p{
+            font-size: 20px;
+            padding-top: 24px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+
 
 // Media
 
@@ -509,6 +578,10 @@ footer{
         font-size: 18px;
         color: #161616;
         font-weight: 400;
+        text-decoration: none;
+        &:hover{
+            color: #161616;
+        }
     }
     .MovieYour video {
         width: 700px;
@@ -568,9 +641,9 @@ footer{
         font-weight: 700;
     }
     footer h5 {
-        font-size: 20px;
+        font-size: 17px;
         color: #161616;
-        font-weight: 500;
+        font-weight: 400;
     }
     footer p {
         font-size: 16px;
@@ -720,10 +793,11 @@ footer{
         font-weight: 500;
     }
     footer h5 {
-        font-size: 22px;
+        font-size: 17px;
         color: #161616;
-        font-weight: 600;
-    }    
+        font-weight: 400;
+        margin-top: 15px;
+    }  
 }
 @media(max-width:575px){
     .MovieYour video {

@@ -1,0 +1,86 @@
+.ContactForCard {
+    width: 100%;
+    text-align: center;
+    .iconDiv {
+        width: 80px;
+        height: 80px;
+        border: 1px solid #E6E6E6;
+        border-radius: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            font-size: 34px;
+        }
+    }
+
+    h5 {
+        font-size: 24px;
+        padding: 20px 0 14px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    a {
+        font-size: 19px;
+        line-height: 1.65em;
+        color: #878787;
+        margin-bottom: 0;
+        text-align: center;
+        text-decoration: none;
+
+        &:hover {
+            color: #878787;
+        }
+    }
+
+}
+.contact-section-four .form-style-one {
+    border-top: 1px solid #E0E0E0;
+    border-radius: 0;
+    padding: 115px 0 0;
+    margin: 80px 0 0;
+}
+.help-block {
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--red-one);
+}
+.form-style-one .input-group-meta input, .form-style-one .input-group-meta textarea , select {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.form-style-one .input-group-meta input,select {
+    height: 60px;
+}
+label{
+    font-size: 13px;
+}
+.textarea{
+    width: 100%;
+    height: 100px;
+}
+.theme-btn-one {
+    margin-top: 25px;
+    font-family: 'gorditamedium';
+    font-size: 17px;
+    color: #fff;
+    padding: 0 42px;
+    text-align: center;
+    line-height: 58px;
+    background: #161616;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}

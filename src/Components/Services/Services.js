@@ -16,7 +16,7 @@ const Services = () => {
                 </div>
                 <div className="row justify-content-between">
                     <div className="col-lg-3 col-md-6">
-                        <div data-aos="fade-up-right" className="card">
+                        <div data-aos="fade-down-right" className="card">
                             <div className="icondiv">
                                 <BiWorld className='SerIcon' />
                             </div>
@@ -46,7 +46,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <div data-aos="fade-down-left" className="card">
+                        <div data-aos="fade-down-right" className="card">
                             <div className="icondiv">
                                 <SiElectron className='SerIcon' />
                             </div>
@@ -61,7 +61,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <div data-aos="fade-left" className="card">
+                        <div data-aos="fade-down-right" className="card">
                             <div className="icondiv">
                                 <AiFillFileMarkdown className='SerIcon' />
                             </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Components/ENG/Footer/Footer'
 import Header from '../Components/ENG/HeaderTop/Header'
 import Strategy from '../Components/ENG/Strategy/Strategy'
 import Portfolio from '../Components/Portfolio/Portfolio'
@@ -11,7 +10,7 @@ const HomeENG = () => {
     <Services />
     <Portfolio />
     <Strategy />
-    <Footer />
+  
     </>
   )
 }

@@ -29,7 +29,7 @@ const NavbarTop = () => {
              <li><Link to="/" className='active'>Home</Link> </li>
              <li><a href="#portfolio">Portfolio</a></li>
              <li><a href="#services">Services</a></li>
-             <li><a href="#footer">Contact</a> </li>
+             <li><Link to="/contact">Contact</Link> </li>
              <li><Link to="/blog">Blog</Link> </li>
            </ul>
            <ul className='NavUL d-none d-lg-flex'>
@@ -50,7 +50,7 @@ const NavbarTop = () => {
              <li><Link to="/" className='active'>Home</Link> </li>
              <li><a href="#portfolio">Portfolio</a></li>
              <li><a href="#services">Services</a></li>
-             <li><a href="#footer">Contact</a> </li>
+             <li><Link to="/contact">Contact</Link> </li>
              <li><Link to="/blog">Blog</Link> </li>
     
            <ul className='NavUL '>

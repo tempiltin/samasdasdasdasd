@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ReactPaginate from 'react-paginate'
-import img from '../../../src/assets/img_31.jpg'
+// import img from '../../../src/assets/img_31.jpg'
 
 const PER_PAGE = 10;
 const Portfolio = () => {
@@ -11,11 +11,13 @@ const Portfolio = () => {
     useEffect(() => {
         fetchData();
     }, [])
+
     function fetchData() {
-        fetch("https://jsonplaceholder.typicode.com/photos")
+        fetch(`https://companyyy.herokuapp.com/api/all_product/`)
             .then((res) => res.json())
             .then((data) => {
                 setData(data);
+                console.log("data fetch >>>>>>>>>>>>>>>>>>>>" ,data);
             });
     }
 
@@ -48,10 +50,10 @@ const Portfolio = () => {
                         data.slice(offset, offset + PER_PAGE).map((res, index) => (
                             <div className="col-lg-6 col-md-6" key={index}>
                                 <div data-aos="zoom-in-down" className="portDivImg">
-                                    <img src={res.thumbnailUrl} alt="" />
+                                    <img src={res.image} alt="" />
                                     <div className="titlePort">
-                                        <h5>{res.url}</h5>
-                                        <p>{res.title}
+                                        <h5>{res.name}</h5>
+                                        <p>{res.about}
                                         </p>
                                     </div>
                                 </div>
