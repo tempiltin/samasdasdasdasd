@@ -6,8 +6,6 @@ const Porfolio1 = () => {
     const [cardData, setCordData] = useState([]);
     const [visible, setVisible] = useState([4])
     const [urllink, setUrlLink] = useState("https://companyyy.herokuapp.com/api/all_product/")
-
-
     const allCardData = async () => {
         const response = await axios.get(`${urllink}`)
         setUrlLink(response.data.next)
@@ -18,15 +16,12 @@ const Porfolio1 = () => {
     const loadMore = () => {
         setVisible(visible + 2)
         allCardData()
-
     }
     useEffect(() => {
         allCardData()
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     const renderCard = (person, index) => {
-        // console.log(person);
-        console.log("hello world");
         return (
             <div className="col-lg-6 col-md-6" key={index}>
                 <div data-aos="zoom-in-down" className="portDivImg">
@@ -42,7 +37,6 @@ const Porfolio1 = () => {
     }
     return (
         <section id="portfolio">
-
             <div className="container">
                 <div className="row">
                     <div className='col-lg-5 col-md-6 col-sm-8'>
@@ -54,23 +48,14 @@ const Porfolio1 = () => {
             </div>
             <div className="container">
                 <div className="row" >
-
-                    {cardData.slice(0, visible).map((card,index) => {
-                        console.log(card);
-                    return  renderCard(card,index)
+                    {cardData.slice(0, visible).map((card, index) => {
+                        return renderCard(card, index)
                     })}
-
-
                 </div>
-                <div className="row">
+                <div className="row mt-5">
                     <div className="col-12">
                         <div className="Drop">
-
-                            {/* {visible < cardData.length && (
-                                )} */}
-
-                            <button onClick={loadMore}>Load More</button>
-
+                            <button onClick={loadMore} className=" PortfolioButton">Load More</button>
                         </div>
                     </div>
                 </div>

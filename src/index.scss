@@ -228,7 +228,7 @@ header {
     }
 
     h1 {
-        font-size: 75px;
+        font-size: 85px;
         font-weight: 700;
     }
 
@@ -238,24 +238,25 @@ header {
         line-height: 1.7rem;
     }
 
-    .HeaderButton {
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: 400;
-        color: #fff;
-        padding: 20px 30px;
-        background: #fb1b1d;
-        border-radius: 10px;
-        transition: 500ms;
 
-        &:hover {
-            background-color: #1e2022;
-        }
-    }
 
     .NumberPhone {
         font-size: 22px;
         color: #fb1b1d;
+    }
+}
+.HeaderButton {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 30px;
+    background: #fb1b1d;
+    border-radius: 10px;
+    transition: 500ms;
+
+    &:hover {
+        background-color: #1e2022;
     }
 }
 
@@ -321,6 +322,19 @@ header {
     margin-bottom: 100px;
     width: 100%;
     height: auto;
+    .PortfolioButton {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        padding: 15px 25px;
+        background: #fb1b1d;
+        border-radius: 10px;
+        transition: 500ms;
+        &:hover{
+            background-color: #161616;
+        }
+    }
     .pagination__link{
         padding: 5px 10px;
         background: #ab46d4;
